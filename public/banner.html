@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #1a1a1a;
+        }
+        .banner {
+            width: 1200px;
+            height: 300px;
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .banner::before {
+            content: '';
+            position: absolute;
+            width: 150%;
+            height: 150%;
+            background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            transform: rotate(-45deg);
+        }
+        .content {
+            text-align: center;
+            color: white;
+            z-index: 1;
+        }
+        .title {
+            font-size: 72px;
+            font-weight: bold;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 24px;
+            margin-top: 10px;
+            opacity: 0.9;
+            font-family: 'Arial', sans-serif;
+        }
+        .icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="content">
+            <div class="icon">🎙️</div>
+            <h1 class="title">Speech to Text</h1>
+            <p class="subtitle">Advanced Voice Recognition Tool</p>
+        </div>
+    </div>
+</body>
+</html>

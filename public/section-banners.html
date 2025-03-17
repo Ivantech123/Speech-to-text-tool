@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #1a1a1a;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .section-banner {
+            width: 600px;
+            height: 100px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            padding: 0 30px;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+        .features {
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+        }
+        .recognition {
+            background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+        }
+        .export {
+            background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+        }
+        .icon {
+            font-size: 36px;
+            margin-right: 20px;
+        }
+        .text {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .glow {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="section-banner features">
+        <div class="glow"></div>
+        <div class="icon">✨</div>
+        <div class="text">Key Features</div>
+    </div>
+    <div class="section-banner recognition">
+        <div class="glow"></div>
+        <div class="icon">🎙️</div>
+        <div class="text">Voice Recognition</div>
+    </div>
+    <div class="section-banner export">
+        <div class="glow"></div>
+        <div class="icon">📤</div>
+        <div class="text">Export Options</div>
+    </div>
+</body>
+</html>
