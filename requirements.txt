@@ -1,0 +1,5 @@
+google-cloud-speech==2.25.1
+flask==3.0.2
+pydub==0.25.1
+python-dotenv==1.0.1
+soundfile==0.12.1
