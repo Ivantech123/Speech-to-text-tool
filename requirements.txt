@@ -1,5 +1,11 @@
 google-cloud-speech==2.25.1
-flask==3.0.2
+flask==3.0.3
+flask-cors==4.0.0
 pydub==0.25.1
 python-dotenv==1.0.1
 soundfile==0.12.1
+redis==5.0.1
+numpy==1.26.4
+validators==0.22.0
+gunicorn==21.2.0
+gevent==23.9.1
